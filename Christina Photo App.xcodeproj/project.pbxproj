@@ -14,6 +14,20 @@
 		7D95B24728722D77005CEAF5 /* Christina_Photo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B24628722D77005CEAF5 /* Christina_Photo_AppTests.swift */; };
 		7D95B25128722D77005CEAF5 /* Christina_Photo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B25028722D77005CEAF5 /* Christina_Photo_AppUITests.swift */; };
 		7D95B25328722D77005CEAF5 /* Christina_Photo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B25228722D77005CEAF5 /* Christina_Photo_AppUITestsLaunchTests.swift */; };
+		7D95B262287234F4005CEAF5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B261287234F4005CEAF5 /* MainView.swift */; };
+		7D95B26428723533005CEAF5 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B26328723533005CEAF5 /* GalleryView.swift */; };
+		7D95B2662872353B005CEAF5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B2652872353B005CEAF5 /* MapView.swift */; };
+		7D95B2682872356F005CEAF5 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B2672872356F005CEAF5 /* MapAnnotationView.swift */; };
+		7D95B26C28723596005CEAF5 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B26B28723596005CEAF5 /* LocationModel.swift */; };
+		7D95B270287236AC005CEAF5 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B26F287236AC005CEAF5 /* CodableBundleExtension.swift */; };
+		7D95B27428723888005CEAF5 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B27328723888005CEAF5 /* CoverImageView.swift */; };
+		7D95B276287238B9005CEAF5 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B275287238B9005CEAF5 /* CoverImageModel.swift */; };
+		7D95B27828723908005CEAF5 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D95B27728723908005CEAF5 /* covers.json */; };
+		7D95B27A28723924005CEAF5 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D95B27928723924005CEAF5 /* locations.json */; };
+		7D95B27C28723F92005CEAF5 /* VacationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B27B28723F92005CEAF5 /* VacationModel.swift */; };
+		7D95B27E287240EB005CEAF5 /* vacations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D95B27D287240EB005CEAF5 /* vacations.json */; };
+		7D95B28028724204005CEAF5 /* VacationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B27F28724204005CEAF5 /* VacationDetailView.swift */; };
+		7D95B28228724262005CEAF5 /* VacationListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B28128724262005CEAF5 /* VacationListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		7D95B24C28722D77005CEAF5 /* Christina Photo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christina Photo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D95B25028722D77005CEAF5 /* Christina_Photo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christina_Photo_AppUITests.swift; sourceTree = "<group>"; };
 		7D95B25228722D77005CEAF5 /* Christina_Photo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christina_Photo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D95B261287234F4005CEAF5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7D95B26328723533005CEAF5 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		7D95B2652872353B005CEAF5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7D95B2672872356F005CEAF5 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		7D95B26B28723596005CEAF5 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		7D95B26F287236AC005CEAF5 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		7D95B27328723888005CEAF5 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		7D95B275287238B9005CEAF5 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		7D95B27728723908005CEAF5 /* covers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		7D95B27928723924005CEAF5 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		7D95B27B28723F92005CEAF5 /* VacationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationModel.swift; sourceTree = "<group>"; };
+		7D95B27D287240EB005CEAF5 /* vacations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vacations.json; sourceTree = "<group>"; };
+		7D95B27F28724204005CEAF5 /* VacationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationDetailView.swift; sourceTree = "<group>"; };
+		7D95B28128724262005CEAF5 /* VacationListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +122,11 @@
 		7D95B23428722D76005CEAF5 /* Christina Photo App */ = {
 			isa = PBXGroup;
 			children = (
-				7D95B23528722D76005CEAF5 /* Christina_Photo_AppApp.swift */,
-				7D95B23728722D76005CEAF5 /* ContentView.swift */,
+				7D95B26E28723697005CEAF5 /* Extension */,
+				7D95B26A28723582005CEAF5 /* Model */,
+				7D95B2692872357C005CEAF5 /* Data */,
+				7D95B260287234E7005CEAF5 /* App */,
+				7D95B25F287234DB005CEAF5 /* Views */,
 				7D95B23928722D76005CEAF5 /* Assets.xcassets */,
 				7D95B23B28722D76005CEAF5 /* Preview Content */,
 			);
@@ -125,6 +156,57 @@
 				7D95B25228722D77005CEAF5 /* Christina_Photo_AppUITestsLaunchTests.swift */,
 			);
 			path = "Christina Photo AppUITests";
+			sourceTree = "<group>";
+		};
+		7D95B25F287234DB005CEAF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D95B2672872356F005CEAF5 /* MapAnnotationView.swift */,
+				7D95B27328723888005CEAF5 /* CoverImageView.swift */,
+				7D95B27F28724204005CEAF5 /* VacationDetailView.swift */,
+				7D95B28128724262005CEAF5 /* VacationListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D95B260287234E7005CEAF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7D95B23528722D76005CEAF5 /* Christina_Photo_AppApp.swift */,
+				7D95B23728722D76005CEAF5 /* ContentView.swift */,
+				7D95B261287234F4005CEAF5 /* MainView.swift */,
+				7D95B26328723533005CEAF5 /* GalleryView.swift */,
+				7D95B2652872353B005CEAF5 /* MapView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7D95B2692872357C005CEAF5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7D95B27728723908005CEAF5 /* covers.json */,
+				7D95B27928723924005CEAF5 /* locations.json */,
+				7D95B27D287240EB005CEAF5 /* vacations.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7D95B26A28723582005CEAF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D95B26B28723596005CEAF5 /* LocationModel.swift */,
+				7D95B275287238B9005CEAF5 /* CoverImageModel.swift */,
+				7D95B27B28723F92005CEAF5 /* VacationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D95B26E28723697005CEAF5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7D95B26F287236AC005CEAF5 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D95B23D28722D76005CEAF5 /* Preview Assets.xcassets in Resources */,
+				7D95B27828723908005CEAF5 /* covers.json in Resources */,
+				7D95B27A28723924005CEAF5 /* locations.json in Resources */,
 				7D95B23A28722D76005CEAF5 /* Assets.xcassets in Resources */,
+				7D95B27E287240EB005CEAF5 /* vacations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +342,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D95B270287236AC005CEAF5 /* CodableBundleExtension.swift in Sources */,
+				7D95B2682872356F005CEAF5 /* MapAnnotationView.swift in Sources */,
+				7D95B28028724204005CEAF5 /* VacationDetailView.swift in Sources */,
+				7D95B27C28723F92005CEAF5 /* VacationModel.swift in Sources */,
+				7D95B27428723888005CEAF5 /* CoverImageView.swift in Sources */,
 				7D95B23828722D76005CEAF5 /* ContentView.swift in Sources */,
+				7D95B262287234F4005CEAF5 /* MainView.swift in Sources */,
+				7D95B28228724262005CEAF5 /* VacationListItemView.swift in Sources */,
+				7D95B276287238B9005CEAF5 /* CoverImageModel.swift in Sources */,
+				7D95B2662872353B005CEAF5 /* MapView.swift in Sources */,
 				7D95B23628722D76005CEAF5 /* Christina_Photo_AppApp.swift in Sources */,
+				7D95B26C28723596005CEAF5 /* LocationModel.swift in Sources */,
+				7D95B26428723533005CEAF5 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

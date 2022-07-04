@@ -1,0 +1,38 @@
+[
+  {
+    "id" : "san-francisco",
+    "name" : "San Francisco, CA",
+    "latitude" : 37.7749,
+    "longitude" : -122.4194
+  },
+  {
+    "id" : "chicago",
+    "name" : "Chicago, IL",
+    "latitude" : 41.8781,
+    "longitude" : -87.6298
+  },
+  {
+    "id" : "munising",
+    "name" : "Munising, MI",
+    "latitude" : 46.411,
+    "longitude" : -86.6479
+  },
+  {
+    "id" : "niagara",
+    "name" : "Niagara Falls, ON",
+    "latitude" : 43.0896,
+    "longitude" : -79.0849
+  },
+  {
+    "id" : "austin",
+    "name" : "Austin, TX",
+    "latitude" : 30.2672,
+    "longitude" : -97.7431
+  },
+  {
+    "id" : "wharton",
+    "name" : "Wharton, TX",
+    "latitude" : 29.3116,
+    "longitude" : -96.1027
+  }
+]
