@@ -28,11 +28,5 @@
     "name" : "Austin, TX",
     "latitude" : 30.2672,
     "longitude" : -97.7431
-  },
-  {
-    "id" : "wharton",
-    "name" : "Wharton, TX",
-    "latitude" : 29.3116,
-    "longitude" : -96.1027
   }
 ]

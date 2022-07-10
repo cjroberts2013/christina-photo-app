@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D6EF990287B51A9003D78BA /* InsertGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6EF98F287B51A9003D78BA /* InsertGalleryView.swift */; };
+		7D6EF993287B5585003D78BA /* gallery.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D6EF992287B5585003D78BA /* gallery.json */; };
 		7D95B23628722D76005CEAF5 /* Christina_Photo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B23528722D76005CEAF5 /* Christina_Photo_AppApp.swift */; };
 		7D95B23828722D76005CEAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B23728722D76005CEAF5 /* ContentView.swift */; };
 		7D95B23A28722D76005CEAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D95B23928722D76005CEAF5 /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D6EF98F287B51A9003D78BA /* InsertGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertGalleryView.swift; sourceTree = "<group>"; };
+		7D6EF992287B5585003D78BA /* gallery.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gallery.json; sourceTree = "<group>"; };
 		7D95B23228722D76005CEAF5 /* Christina Photo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christina Photo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D95B23528722D76005CEAF5 /* Christina_Photo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christina_Photo_AppApp.swift; sourceTree = "<group>"; };
 		7D95B23728722D76005CEAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 				7D95B27328723888005CEAF5 /* CoverImageView.swift */,
 				7D95B27F28724204005CEAF5 /* VacationDetailView.swift */,
 				7D95B28128724262005CEAF5 /* VacationListItemView.swift */,
+				7D6EF98F287B51A9003D78BA /* InsertGalleryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				7D95B27728723908005CEAF5 /* covers.json */,
 				7D95B27928723924005CEAF5 /* locations.json */,
 				7D95B27D287240EB005CEAF5 /* vacations.json */,
+				7D6EF992287B5585003D78BA /* gallery.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6EF993287B5585003D78BA /* gallery.json in Resources */,
 				7D95B23D28722D76005CEAF5 /* Preview Assets.xcassets in Resources */,
 				7D95B27828723908005CEAF5 /* covers.json in Resources */,
 				7D95B27A28723924005CEAF5 /* locations.json in Resources */,
@@ -354,6 +361,7 @@
 				7D95B2662872353B005CEAF5 /* MapView.swift in Sources */,
 				7D95B23628722D76005CEAF5 /* Christina_Photo_AppApp.swift in Sources */,
 				7D95B26C28723596005CEAF5 /* LocationModel.swift in Sources */,
+				7D6EF990287B51A9003D78BA /* InsertGalleryView.swift in Sources */,
 				7D95B26428723533005CEAF5 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,11 +524,13 @@
 				DEVELOPMENT_TEAM = 8M4VMWD9G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Memories;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,11 +555,13 @@
 				DEVELOPMENT_TEAM = 8M4VMWD9G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Memories;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
